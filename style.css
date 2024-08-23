@@ -17,8 +17,15 @@ body{
 
 .principal {
     background-image: url("Background.png");
+    background-repeat: no-repeat;
 }
  
 .container{ 
     height: 100vh;
+} 
+
+.container_botão{ 
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
 }

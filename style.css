@@ -18,7 +18,10 @@ body{
 
 .principal {
     background-image: url("Background.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    align-items: center; 
+    text-align: center;
 }
  
 .container{ 
@@ -27,15 +30,34 @@ body{
     grid-template-columns: 50% 50%;
 } 
 
-.container_botão{ 
+.container_botão{  
     background-color: var(--botao-azul);
     color: var(--branco-principal);
     border-radius: 5px; 
     padding: 1em;
     display: block;
+    text-decoration: none;
 } 
 
 .botão2{ 
     background-color: transparent;
     border: 2px solid white;
+} 
+
+.container_aviso{ 
+    font-size: 12px;
+    color: var(--cinza-secundário);
+}  
+
+.container_titulo{ 
+    font-size: 28px; 
+    font-weight: 700;
+} 
+
+.container_imagem{ 
+    margin: 1em 0 2em 0;
+} 
+
+.container_caixa{ 
+ margin: 0 6em;
 }

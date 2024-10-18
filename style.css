@@ -86,22 +86,34 @@ body{
 
 .container_descricao{
     padding: 2em;
-} 
+}
 
 .dispositivos_lista{
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     list-style-type: none;
-} 
- 
-.dispositivo{
+    font-size: 48px;
+}
+
+.dispositivos{
     text-align: center;
-} 
+}
 
 .dispositivos_titulo{
     font-size: 48px;
-} 
-  
+}
+
 .item_lista{
     font-size: 32px;
+} 
+
+.rodape{ 
+    text-align: center;
+} 
+
+.rodape_lista{
+    display: flex; 
+    justify-content: center; 
+    list-style-type: none; 
+    margin-top: 1em;
 }
